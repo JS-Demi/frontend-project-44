@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/JS-Demi/frontend-project-44.git"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "author": "Miracle",
   "license": "ISC",
   "bugs": {

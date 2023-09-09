@@ -21,7 +21,12 @@
   },
   "homepage": "https://github.com/JS-Demi/frontend-project-44#readme",
   "dependencies": {
-    "makefile": "^0.0.2",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "makefile": "^0.0.2"
   }
 }

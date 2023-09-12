@@ -1,15 +1,13 @@
-import brainGames from '../index.js';
 import readlineSync from 'readline-sync';
+import brainGames from '../index.js';
 
 const calc = (n1, n2) => {
   let i = Math.min(n1, n2);
   while (i >= 1) {
-    if (n1 % i === 0 && n2 % i === 0) {
-      return +i;
-    }
+    if (n1 % i === 0 && n2 % i === 0) return +i;
     i -= 1;
   }
-  };
+};
 
 const brainGcd = () => {
   console.log('Find the greatest common divisor of given numbers.');

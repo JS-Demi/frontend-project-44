@@ -8,7 +8,7 @@ const brainProgression = () => {
     const rndNumb2 = Math.ceil(Math.random() * 10);
     const arr = [rndNumb];
     let progression = rndNumb;
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i < 10; i += 1) {
       progression += rndNumb2;
       arr.push(progression);
     }

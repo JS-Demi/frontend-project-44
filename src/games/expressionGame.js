@@ -1,7 +1,10 @@
+/* eslint-disable import/extensions */
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 import brainGames from '../index.js';
 
 const brainCalc = () => {
+  // eslint-disable-next-line no-console
   console.log('What is the result of the expression?');
   const operands = ['+', '-', '*'];
   const index = Math.floor(Math.random() * 3);

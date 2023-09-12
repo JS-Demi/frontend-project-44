@@ -21,9 +21,9 @@ const primeNumber = () => {
       return 'Correct!';
     } return `"${yourAnswer}" is wrong answer ;(. Correct answer was "yes".\nLet's try again, `;
   }
-    if (yourAnswer === 'no') {
-      console.log('Correct!');
-      return 'Correct!';
-    } return `"${yourAnswer}" is wrong answer ;(. Correct answer was "no".\nLet's try again, `;
+  if (yourAnswer === 'no') {
+    console.log('Correct!');
+    return 'Correct!';
+  } return `"${yourAnswer}" is wrong answer ;(. Correct answer was "no".\nLet's try again, `;
 };
 export default () => brainGames(primeNumber);

@@ -1,31 +1,11 @@
----
-plugins:
-  - jest
-
 env:
+  es2021: true
   node: true
-  jest: true
-  es2020: true
-
-extends:
-  - "airbnb-base"
-  - "plugin:jest/recommended"
-
+extends: airbnb-base
 parserOptions:
   ecmaVersion: latest
-
+  sourceType: module
 rules: {
   no-console: 0,
-  import/extensions:
-    - error
-    - ignorePackages
-    - js: always,
-    'prettier/prettier': ['warn', {
-      semi: false,
-      ...
-      singleQuote: true,
-      vueIndentScriptAndStyle: true,
-      arrowParens: 'avoid',
-      trailingComma: 'none',
-      quoteProps: 'consistent',
-    }]}
+  import/extensions: 0
+}

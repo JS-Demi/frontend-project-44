@@ -19,9 +19,10 @@ const evenGame = () => {
     }   return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${reverse(yourAnswer)}'.\nLet's try again, `
     } else {
         if (yourAnswer === "no") {
-            console.log('Correct!');
-            return "Correct!";
-        } return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${reverse(yourAnswer)}'.\nLet's try again, `
+        console.log('Correct!');
+        return "Correct!";
+    }
+         return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${reverse(yourAnswer)}'.\nLet's try again, `
     }
 };
 export default () => brainGames(evenGame);

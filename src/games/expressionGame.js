@@ -20,7 +20,7 @@ const brainCalc = () => {
     console.log("Correct!");
     return "Correct!";
   }
-  const lose = `'${yourAnswer}' is wrong answer ;(. Correct answer was '${expression}'.\nLet's try again, `;
-  return lose;
+  return `"${yourAnswer}" is wrong answer ;(. Correct answer was "${expression}".\nLet's try again, `;
+  
 };
 export default () => brainGames(brainCalc);

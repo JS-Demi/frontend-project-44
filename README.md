@@ -17,6 +17,7 @@ npm install @hexlet/code
 Желаю удачи всем участникам!
 
 ## Примеры игр:
+
 ### brain-even:
 [![asciicast](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT.svg)](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT)
 

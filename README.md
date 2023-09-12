@@ -11,3 +11,6 @@ brain-calc:
 
 brain-gcd:
 [![asciicast](https://asciinema.org/a/JWlyhRDLJZ82NuzPC3Nmoktrl.svg)](https://asciinema.org/a/JWlyhRDLJZ82NuzPC3Nmoktrl)
+
+brain-progression:
+[![asciicast](https://asciinema.org/a/Yci0TQ1DKt7KL2XFFIxNgPXfS.svg)](https://asciinema.org/a/Yci0TQ1DKt7KL2XFFIxNgPXfS)

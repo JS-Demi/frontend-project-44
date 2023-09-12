@@ -1,12 +1,6 @@
 import readlineSync from "readline-sync";
 import brainGames from "../index.js";
 
-const reverse = (answer) => {
-    if (answer === 'yes') {
-        return 'no';
-    } else return 'yes';
-}
-
 const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const randomNumber = Math.round(Math.random() * 100);
@@ -16,13 +10,13 @@ const evenGame = () => {
       if (yourAnswer === "yes") {
         console.log('Correct!');
         return "Correct!";
-    }   return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${reverse(yourAnswer)}'.\nLet's try again, `
+    }   return `"${yourAnswer}" is wrong answer ;(. Correct answer was "yes".\nLet's try again, `
     } else {
         if (yourAnswer === "no") {
         console.log('Correct!');
         return "Correct!";
     }
-         return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${reverse(yourAnswer)}'.\nLet's try again, `
+         return `"${yourAnswer}" is wrong answer ;(. Correct answer was "no".\nLet's try again, `
     }
 };
 export default () => brainGames(evenGame);

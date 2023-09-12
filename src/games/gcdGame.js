@@ -2,12 +2,7 @@ import brainGames from "../index.js";
 import readlineSync from "readline-sync";
 
 const calc = (n1, n2) => {
-  let i;
-  if (n1 > n2) { 
-    i = n2;
-  } else {
-    i = n1;
-  }
+  let i = Math.min(n1, n2);
   while (i >= 1) {
     if (n1 % i === 0 && n2 % i === 0) {
       return +i;

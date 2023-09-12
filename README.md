@@ -6,10 +6,16 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/15be2e4e4db480fb91b2/maintainability)](https://codeclimate.com/github/JS-Demi/frontend-project-44/maintainability)
 
 
-## Install
+## Как установить проект?
+Используйте приведённую ниже команду.
 ```sh
 npm install @hexlet/code
 ```
+## О проекте Brain-Games
+Проект позволяет проверить себя в арифметическом и логическом направлении.
+Проект предложит Вам проверить свои знания в игровой форме, чтобы пройти игру необходимо дать 
+3 правильных ответа подряд.
+Желаю удачи всем участникам!
 
 ## Usage example
 ### brain-even:

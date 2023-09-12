@@ -10,7 +10,7 @@ const brainGames = (game) => {
     if (winOrLose === "Correct!") {
       result++;
     } else {
-      return console.log(winOrLose + userName);
+      return console.log(winOrLose + userName + '!');
     }
   }
   console.log("Congratulations, " + userName + "!");

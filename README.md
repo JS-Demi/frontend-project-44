@@ -16,7 +16,7 @@ npm install @hexlet/code
 Чтобы пройти игру необходимо дать 3 правильных ответа подряд.
 Желаю удачи всем участникам!
 
-## Usage example
+## Примеры игр:
 ### brain-even:
 [![asciicast](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT.svg)](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT)
 

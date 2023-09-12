@@ -1,8 +1,7 @@
 import brainGames from "../index.js";
 import readlineSync from "readline-sync";
 
-const primeNumber = () => {
-  const isPrime = (n) => {
+const isPrime = (n) => {
     for (let i = 2; i < n; i++) {
       if (n % i === 0) {
         return false;
@@ -10,6 +9,8 @@ const primeNumber = () => {
     }
     return true;
   };
+
+const primeNumber = () => {
   console.log('Answer "yes" if given number is prime. Otherwise answer "no"');
   const randomNumber = Math.ceil(Math.random() * 100);
   console.log("Question: " + randomNumber);

@@ -13,6 +13,6 @@ const brainGames = (game) => {
       return console.log(winOrLose + userName + '!');
     }
   }
-  console.log(`Congratulations ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 export default brainGames;

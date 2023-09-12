@@ -11,24 +11,14 @@ const evenGame = () => {
       console.log("Correct!");
       return "Correct!";
     } else {
-      return (
-        "'" +
-        yourAnswer +
-        "' " +
-        "is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, "
-      );
+      return `'${yourAnswer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, `
     }
   } else {
     if (yourAnswer === "no") {
       console.log("Correct!");
       return "Correct!";
     } else {
-      return (
-        "'" +
-        yourAnswer +
-        "' " +
-        "is wrong answer ;(. Correct answer was 'no'\nLet's try again, "
-      );
+        return `'${yourAnswer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, `
     }
   }
 };

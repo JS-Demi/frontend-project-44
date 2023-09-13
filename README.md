@@ -12,6 +12,7 @@
 
 ## Как установить проект?
 
+Введите в терминале команду:
 ```sh
 npm install @hexlet/code
 ```
@@ -57,16 +58,16 @@ brain-prime
 ## Примеры игр:
 
 ### Определить четность числа:
-[![asciicast](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT.svg)](https://asciinema.org/a/rC4x4kiXWAry721BZcIFEcnPT)
+[![asciicast](https://asciinema.org/a/k1xboW2vAPo1bh2EvIkCj99bN.svg)](https://asciinema.org/a/k1xboW2vAPo1bh2EvIkCj99bN)
 
 ### Вычислить результат выражения:
-[![asciicast](https://asciinema.org/a/3Hpz7xCSUDfZFQiJPRgs1C6UB.svg)](https://asciinema.org/a/3Hpz7xCSUDfZFQiJPRgs1C6UB)
+[![asciicast](https://asciinema.org/a/D4JbaUKNAoD1KWgInPqcjl0zA.svg)](https://asciinema.org/a/D4JbaUKNAoD1KWgInPqcjl0zA)
 
 ### Найти наибольший общий делитель:
-[![asciicast](https://asciinema.org/a/JWlyhRDLJZ82NuzPC3Nmoktrl.svg)](https://asciinema.org/a/JWlyhRDLJZ82NuzPC3Nmoktrl)
+[![asciicast](https://asciinema.org/a/Fp3xwQrQGdA2qIBNmsMf213Tf.svg)](https://asciinema.org/a/Fp3xwQrQGdA2qIBNmsMf213Tf)
 
 ### Вычислить закономерность прогрессии:
-[![asciicast](https://asciinema.org/a/Yci0TQ1DKt7KL2XFFIxNgPXfS.svg)](https://asciinema.org/a/Yci0TQ1DKt7KL2XFFIxNgPXfS)
+[![asciicast](https://asciinema.org/a/Axy2GxMPftXm1xRRiMYoRsdQW.svg)](https://asciinema.org/a/Axy2GxMPftXm1xRRiMYoRsdQW)
 
 ### Определить является ли число простым:
-[![asciicast](https://asciinema.org/a/RPmUhSB7ZCvUWe6TZjWoUc8DY.svg)](https://asciinema.org/a/RPmUhSB7ZCvUWe6TZjWoUc8DY)
+[![asciicast](https://asciinema.org/a/WncH5LngrIFrVpr0YFrHSUKMz.svg)](https://asciinema.org/a/WncH5LngrIFrVpr0YFrHSUKMz)

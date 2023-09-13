@@ -1,7 +1,6 @@
-import readlineSync from 'readline-sync';
 import brainGames from '../index.js';
 
-const gameCondition = 'What is the result of the expression?';
+const rules = 'What is the result of the expression?';
 
 const brainCalc = () => {
   const operands = ['+', '-', '*'];
@@ -14,13 +13,8 @@ const brainCalc = () => {
   };
   const randomNumber1 = Math.round(Math.random() * 20);
   const randomNumber2 = Math.round(Math.random() * 10);
-  console.log(`Question: ${randomNumber1} ${randomOperand} ${randomNumber2}`);
-  const expression = calc(randomNumber1, randomNumber2);
-  const yourAnswer = readlineSync.question('Your answer: ');
-  if (+yourAnswer === +expression) {
-    console.log('Correct!');
-    return 'Correct!';
-  }
-  return `"${yourAnswer}" is wrong answer ;(. Correct answer was "${expression}".\nLet's try again, `;
+  const expression = `${randomNumber1} ${randomOperand} ${randomNumber2}`;
+  const solution = calc(randomNumber1, randomNumber2);
+  return [expression, solution];
 };
-export default () => brainGames(gameCondition, brainCalc);
+export default () => brainGames(brainCalc, rules);

@@ -5,20 +5,17 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/15be2e4e4db480fb91b2/maintainability)](https://codeclimate.com/github/JS-Demi/frontend-project-44/maintainability)
 
+## Системные требования:
+
+Для корректной работы проекта необходим терминал с установленным node.js.
+Как это сделать смотрите здесь: https://nodejs.org/ru/download/package-manager
 
 ## Как установить проект?
-Чтобы проект работал корректно необходимо выполнить несколько команд:
+
 ```sh
 npm install @hexlet/code
 ```
-Затем:
-```sh
-npm link
-```
-И последнее:
-```sh
-make publish
-```
+
 ## О проекте Brain-Games
 Проект позволяет проверить свои знания в арифметическом и логическом направлении в игровой форме.
 Чтобы пройти игру необходимо дать 3 правильных ответа подряд.
@@ -50,7 +47,7 @@ brain-progression
 ```
 Найдите пропущенное число, поняв закономерность прогрессии чисел.
 
-### Просто число
+### Простое число
 ```sh
 brain-prime
 ```

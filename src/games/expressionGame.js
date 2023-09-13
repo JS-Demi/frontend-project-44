@@ -1,11 +1,9 @@
-/* eslint-disable import/extensions */
-/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 import brainGames from '../index.js';
 
+const gameCondition = 'What is the result of the expression?';
+
 const brainCalc = () => {
-  // eslint-disable-next-line no-console
-  console.log('What is the result of the expression?');
   const operands = ['+', '-', '*'];
   const index = Math.floor(Math.random() * 3);
   const randomOperand = operands[index];
@@ -25,4 +23,4 @@ const brainCalc = () => {
   }
   return `"${yourAnswer}" is wrong answer ;(. Correct answer was "${expression}".\nLet's try again, `;
 };
-export default () => brainGames(brainCalc);
+export default () => brainGames(gameCondition, brainCalc);

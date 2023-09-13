@@ -1,6 +1,8 @@
 import readlineSync from 'readline-sync';
 import brainGames from '../index.js';
 
+const gcdCondition = 'Find the greatest common divisor of given numbers.';
+
 const calc = (n1, n2) => {
   let i = Math.min(n1, n2);
   while (i >= 1) {
@@ -11,7 +13,6 @@ const calc = (n1, n2) => {
 };
 
 const brainGcd = () => {
-  console.log('Find the greatest common divisor of given numbers.');
   const randomNumber1 = Math.ceil(Math.random() * 20);
   const randomNumber2 = Math.ceil(Math.random() * 20);
   console.log(`Question: ${randomNumber1} ${randomNumber2}`);
@@ -23,4 +24,4 @@ const brainGcd = () => {
   }
   return `'${yourAnswer}' is wrong answer ;(. Correct answer was '${expression}'.\nLet's try again, `;
 };
-export default () => brainGames(brainGcd);
+export default () => brainGames(gcdCondition, brainGcd);

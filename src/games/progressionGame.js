@@ -1,25 +1,26 @@
-import brainGames from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../randomNumber.js';
 
-const rules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
-const newProgression = () => {
-  const rndNumb1 = Math.round(Math.random() * 50);
-  const rndNumb2 = Math.ceil(Math.random() * 10);
-  const arr = [rndNumb1];
-  let progression = rndNumb1;
+const lostPart = (n1, n2) => {
+  const arr = [n1];
+  let progression = n1;
   for (let i = 1; i < 10; i += 1) {
-    progression += rndNumb2;
+    progression += n2;
     arr.push(progression);
   }
   return arr;
 };
 
-const brainProgression = () => {
-  const rndNumb = Math.round(Math.random() * 9);
-  const progressionArr = newProgression();
+const findLostNumber = () => {
+  const rndNumb = Math.floor(randomNumber() / 5);
+  const rndNumb1 = randomNumber();
+  const rndNumb2 = Math.ceil(randomNumber() / 5);
+  const progressionArr = lostPart(rndNumb1, rndNumb2);
   const skippedNumberArr = progressionArr
     .join(' ')
     .replace(progressionArr[rndNumb], '..');
   return [skippedNumberArr, progressionArr[rndNumb]];
 };
-export default () => brainGames(brainProgression, rules);
+export default () => runGame(findLostNumber, rule);

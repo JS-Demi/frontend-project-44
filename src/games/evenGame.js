@@ -1,12 +1,18 @@
-import brainGames from '../index.js';
+import runGame from '../index.js';
+import randomNumber from '../randomNumber.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const evenGame = () => {
-  const randomNumber = Math.round(Math.random() * 100);
-  if (randomNumber % 2 === 0) {
-    return [randomNumber, 'yes'];
+const isEven = (n) => {
+  if (n % 2 === 0) {
+    return true;
   }
-  return [randomNumber, 'no'];
+  return false;
 };
-export default () => brainGames(evenGame, rules);
+
+const evenOrNot = () => {
+  const rndNumb = randomNumber() * 2;
+  if (isEven(rndNumb)) return [rndNumb, 'yes'];
+  return [rndNumb, 'no'];
+};
+export default () => runGame(evenOrNot, rule);

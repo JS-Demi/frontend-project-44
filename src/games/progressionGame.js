@@ -20,7 +20,6 @@ const brainProgression = () => {
   const skippedNumberArr = progressionArr
     .join(' ')
     .replace(progressionArr[rndNumb], '..');
-  const data = [skippedNumberArr, progressionArr[rndNumb]];
-  return data;
+  return [skippedNumberArr, progressionArr[rndNumb]];
 };
 export default () => brainGames(brainProgression, rules);

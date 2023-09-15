@@ -1,5 +1,5 @@
 import runGame from '../index.js';
-import randomNumber from '../createRandomNumber.js';
+import { ceilRandomNumber } from '../createRandomNumber.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 
@@ -13,10 +13,10 @@ const findGreatestDivisible = (n1, n2) => {
 };
 
 const createExpression = () => {
-  const randomNumber1 = randomNumber(100);
-  const randomNumber2 = randomNumber(50);
-  const numbers = `${randomNumber1} ${randomNumber2}`;
-  const solution = findGreatestDivisible(randomNumber1, randomNumber2);
+  const number1 = ceilRandomNumber(100);
+  const number2 = ceilRandomNumber(50);
+  const numbers = `${number1} ${number2}`;
+  const solution = findGreatestDivisible(number1, number2);
   return [numbers, solution];
 };
 export default () => runGame(createExpression, rule);

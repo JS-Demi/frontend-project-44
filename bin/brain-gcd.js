@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import run from '../src/games/findDivisorGame.js';
+import run from '../src/games/findCommonDivisorGame.js';
 
 run();

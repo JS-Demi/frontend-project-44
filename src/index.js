@@ -5,11 +5,12 @@ const runGame = (getData, rule) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(rule);
-  for (let i = 0; i < 3; i += 1) {
+  const correctAnswersToWin = 3;
+  for (let i = 0; i < correctAnswersToWin; i += 1) {
     const [expression, solution] = getData();
     console.log(`Question: ${expression}`);
     const yourAnswer = readlineSync.question('Your answer: ');
-    if (yourAnswer.toString() === solution.toString()) {
+    if (yourAnswer === solution.toString()) {
       console.log('Correct!');
     } else {
       console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${solution}".`);

@@ -7,7 +7,7 @@ const runGame = (getData, rule) => {
   console.log(rule);
   const correctAnswersToWin = 3;
   for (let i = 0; i < correctAnswersToWin; i += 1) {
-    const [expression, solution] = getData().toString();
+    const [expression, solution] = getData();
     console.log(`Question: ${expression}`);
     const yourAnswer = readlineSync.question('Your answer: ');
     if (yourAnswer === solution) {

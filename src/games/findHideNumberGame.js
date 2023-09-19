@@ -21,9 +21,10 @@ const findHideNumber = () => {
   const number1 = randomNumber(maxNumber1);
   const number2 = randomNumber(maxNumber2);
   const progressionArr = createProgression(number1, number2, progressionSize);
-  const hideNumber = progressionArr
+  const hideNumber = progressionArr[index];
+  const progressionWithHideNumber = progressionArr
     .join(' ')
-    .replace(progressionArr[index], '..');
-  return [hideNumber, progressionArr[index]];
+    .replace(hideNumber, '..');
+  return [progressionWithHideNumber, hideNumber.toString()];
 };
 export default () => runGame(findHideNumber, rule);

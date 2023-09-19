@@ -19,6 +19,6 @@ const createExpression = () => {
   const number2 = ceilRandomNumber(maxNumber2);
   const numbers = `${number1} ${number2}`;
   const solution = findGreatestDivisible(number1, number2);
-  return [numbers, solution];
+  return [numbers, solution.toString()];
 };
 export default () => runGame(createExpression, rule);

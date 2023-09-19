@@ -29,6 +29,6 @@ const createExpression = () => {
   const operand = createRandomOperand();
   const expression = `${number1} ${operand} ${number2}`;
   const solution = calculatеSolution(number1, number2, operand);
-  return [expression, solution];
+  return [expression, solution.toString()];
 };
 export default () => runGame(createExpression, rule);

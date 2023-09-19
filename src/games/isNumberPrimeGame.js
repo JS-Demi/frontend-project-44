@@ -4,7 +4,8 @@ import randomNumber from '../createRandomNumber.js';
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no"';
 
 const findDivisors = (n) => {
-  for (let i = 2; i < n; i += 1) {
+  const minSuitableDivisor = 2;
+  for (let i = minSuitableDivisor; i < n; i += 1) {
     if (n % i === 0) {
       return false;
     }
@@ -13,7 +14,8 @@ const findDivisors = (n) => {
 };
 
 const isNumberPrime = () => {
-  const number = randomNumber(100);
+  const maxNumber = 100;
+  const number = randomNumber(maxNumber);
   return findDivisors(number) ? [number, 'yes'] : [number, 'no'];
 };
 export default () => runGame(isNumberPrime, rule);

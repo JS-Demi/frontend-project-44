@@ -13,8 +13,10 @@ const findGreatestDivisible = (n1, n2) => {
 };
 
 const createExpression = () => {
-  const number1 = ceilRandomNumber(100);
-  const number2 = ceilRandomNumber(50);
+  const maxNumber1 = 100;
+  const maxNumber2 = 50;
+  const number1 = ceilRandomNumber(maxNumber1);
+  const number2 = ceilRandomNumber(maxNumber2);
   const numbers = `${number1} ${number2}`;
   const solution = findGreatestDivisible(number1, number2);
   return [numbers, solution];

@@ -7,10 +7,10 @@ const runGame = (getData, rule) => {
   console.log(rule);
   const correctAnswersToWin = 3;
   for (let i = 0; i < correctAnswersToWin; i += 1) {
-    const [expression, solution] = getData();
+    const [expression, solution] = getData().toString();
     console.log(`Question: ${expression}`);
     const yourAnswer = readlineSync.question('Your answer: ');
-    if (yourAnswer === solution.toString()) {
+    if (yourAnswer === solution) {
       console.log('Correct!');
     } else {
       console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${solution}".`);

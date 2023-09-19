@@ -22,11 +22,13 @@ const calculatеSolution = (n1, n2, operand) => {
 };
 
 const createExpression = () => {
-  const randomNumber1 = randomNumber(50);
+  const maxNumber1 = 50;
+  const maxNumber2 = 20;
+  const number1 = randomNumber(maxNumber1);
+  const number2 = randomNumber(maxNumber2);
   const operand = createRandomOperand();
-  const randomNumber2 = randomNumber(20);
-  const expression = `${randomNumber1} ${operand} ${randomNumber2}`;
-  const solution = calculatеSolution(randomNumber1, randomNumber2, operand);
+  const expression = `${number1} ${operand} ${number2}`;
+  const solution = calculatеSolution(number1, number2, operand);
   return [expression, solution];
 };
 export default () => runGame(createExpression, rule);

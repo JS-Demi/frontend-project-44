@@ -58,16 +58,16 @@ brain-prime
 ## Примеры игр:
 
 ### Определить четность числа:
-[![asciicast](https://asciinema.org/a/k1xboW2vAPo1bh2EvIkCj99bN.svg)](https://asciinema.org/a/k1xboW2vAPo1bh2EvIkCj99bN)
+[![asciicast](https://asciinema.org/a/oqa2ZJ44lRhNklyg92IW550Wc.svg)](https://asciinema.org/a/oqa2ZJ44lRhNklyg92IW550Wc)
 
 ### Вычислить результат выражения:
-[![asciicast](https://asciinema.org/a/D4JbaUKNAoD1KWgInPqcjl0zA.svg)](https://asciinema.org/a/D4JbaUKNAoD1KWgInPqcjl0zA)
+[![asciicast](https://asciinema.org/a/wDeVQamzpuFNFbd7TBM5l0Xh5.svg)](https://asciinema.org/a/wDeVQamzpuFNFbd7TBM5l0Xh5)
 
 ### Найти наибольший общий делитель:
-[![asciicast](https://asciinema.org/a/Fp3xwQrQGdA2qIBNmsMf213Tf.svg)](https://asciinema.org/a/Fp3xwQrQGdA2qIBNmsMf213Tf)
+[![asciicast](https://asciinema.org/a/IIGKTf9xBYzqlj5M0BFBMRgwO.svg)](https://asciinema.org/a/IIGKTf9xBYzqlj5M0BFBMRgwO)
 
 ### Вычислить закономерность прогрессии:
-[![asciicast](https://asciinema.org/a/Axy2GxMPftXm1xRRiMYoRsdQW.svg)](https://asciinema.org/a/Axy2GxMPftXm1xRRiMYoRsdQW)
+[![asciicast](https://asciinema.org/a/fLNlGa3KGfWLlaZG9nJVwFpYw.svg)](https://asciinema.org/a/fLNlGa3KGfWLlaZG9nJVwFpYw)
 
 ### Определить является ли число простым:
-[![asciicast](https://asciinema.org/a/WncH5LngrIFrVpr0YFrHSUKMz.svg)](https://asciinema.org/a/WncH5LngrIFrVpr0YFrHSUKMz)
+[![asciicast](https://asciinema.org/a/VKZ76hgyxUVYJnq0ipr2lF2E8.svg)](https://asciinema.org/a/VKZ76hgyxUVYJnq0ipr2lF2E8)
